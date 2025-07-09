@@ -1,0 +1,50 @@
+# Laravel Framework
+/vendor/
+/node_modules/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/dominican-schools-output-*.csv
+/storage/app/dominican-schools-output-*.json
+/storage/framework/
+/storage/logs/
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Composer
+composer.phar
+composer.lock
+
+# Laravel specific
+/bootstrap/compiled.php
+/bootstrap/cache/
+/app/storage/
+
+# Output files (they will be generated when command runs)
+/storage/app/dominican-schools-output-* 
